@@ -1,0 +1,454 @@
+* {
+  margin: 0 auto; }
+
+header {
+  background: #5C1214;
+  width: 100%;
+  height: 8vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+nav {
+  background: #131313;
+  width: 100%;
+  height: 40px; }
+
+li {
+  display: inline;
+  color: white;
+  font-weight: bold;
+  font-size: 20pt;
+  text-align: left;
+  margin-left: 1vw; }
+
+.date{
+  float: right;
+  position: relative;
+  top: 1vw;
+  right: 3vw;
+}
+
+.bar1{
+  width: 90%;
+  background-color: grey;
+  height: 3vw;
+  color: white;
+  font-size: 200%;
+  position: relative;
+  top: 10vw;
+}
+
+.topnews{
+  margin-left: 1vw;
+}
+
+.topcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 20vw;
+  position: relative;
+  top: 12vw;
+  right: 6vw;
+}
+
+.top3{
+  width: 30%;
+}
+
+.topsubcontainer{
+  width: 80%;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  left: 4vw;
+  top: 40vw;
+}
+
+.topsub{
+    width: 30%;
+    height: 6vw;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.rightbanner{
+  float: right;
+  position: relative;
+  right: 5vw;
+  bottom: 8vw;
+  height: 47.5vw;
+  width: 10%;
+}
+
+.bar2{
+  width: 77.5%;
+  background-color: grey;
+  height: 3vw;
+  color: white;
+  font-size: 200%;
+  position: relative;
+  top: 14vw;
+  right: 5.75vw;
+}
+
+
+.botcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 20vw;
+  position: relative;
+  top: 16vw;
+  right: 1vw;
+}
+
+.bot3{
+  width: 30%;
+}
+
+.botsubcontainer{
+  width: 80%;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  left: 4vw;
+  top: 67.5vw;
+}
+
+.botsub{
+    width: 30%;
+    height: 6vw;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+.devbanner{
+  width: 70%;
+  position: relative;
+  top: 20vw;
+  left: 10%;
+}
+
+
+.quadcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  height: 20vw;
+  position: relative;
+  top: 22vw;
+  right: 1vw;
+}
+
+.quad4{
+  width: 34%;
+  height: 60%;
+  margin-bottom: 5vw;
+}
+
+.quadsubcontainer{
+  width: 80%;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  top: 95vw;
+  left: 4vw;
+ 
+ }
+
+.quadsub{
+    width: 34%;
+    height: 6vw;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 10vw;
+}
+
+
+.cfbanner{
+  float: right;
+  position: relative;
+  right: 5vw;
+  bottom: 8vw;
+  height: 40vw;
+  width: 10%;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 15vw;
+  background-color: #131313;
+  margin-top: 40vw; }
+  footer .logo-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2vw 2vw 4vw 0; }
+    footer .logo-bottom img {
+      width: 20vw;
+      height: auto; }
+  footer p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5vw; }
+
+
+.techquadcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10vw;
+  width: 80%;
+  height: 20vw;
+  }
+
+.techquadsubcontainer{
+    width: 80%;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  top: 30vw;
+  left: 10%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+* {
+  margin: 0 auto; }
+
+header {
+  background: #5C1214;
+  width: 100%;
+  height: 20vw;
+  }
+
+  .headbanner{
+    display: none;
+  }
+
+  .cflogo{
+    position: absolute;
+    left: 5vw;
+  }
+
+nav {
+  background: #131313;
+  width: 100%;
+  height: 40px; }
+
+li {
+  display: inline;
+  color: white;
+  font-weight: bold;
+  font-size: 20pt;
+  margin-left: 5vw; }
+
+.date{
+  display: none;
+}
+
+.bar1{
+  width: 90%;
+  background-color: grey;
+  height: 5vw;
+  color: white;
+  font-size: 200%;
+  position: relative;
+  top: 10vw;
+}
+
+.topnews{
+  margin-left: 1vw;
+}
+
+.topcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vw;
+  position: relative;
+  top: 12vw;
+  right: 6vw;
+}
+
+.top3{
+  width: 50%;
+}
+
+.topsubcontainer{
+  width: 100%;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  left: 4vw;
+  top: 40vw;
+}
+
+.topsub{
+    width: 50%;
+    height: 6vw;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.rightbanner{
+  float: right;
+  position: relative;
+  right: 5vw;
+  bottom: 8vw;
+  height: 47.5vw;
+  width: 10%;
+}
+
+.bar2{
+  width: 77.5%;
+  background-color: grey;
+  height: 3vw;
+  color: white;
+  font-size: 200%;
+  position: relative;
+  top: 14vw;
+  right: 5.75vw;
+}
+
+
+.botcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 20vw;
+  position: relative;
+  top: 16vw;
+  right: 1vw;
+}
+
+.bot3{
+  width: 30%;
+}
+
+.botsubcontainer{
+  width: 80%;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  left: 4vw;
+  top: 67.5vw;
+}
+
+.botsub{
+    width: 30%;
+    height: 6vw;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+.devbanner{
+  width: 70%;
+  position: relative;
+  top: 20vw;
+  left: 10%;
+}
+
+
+.quadcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  height: 20vw;
+  position: relative;
+  top: 22vw;
+  right: 1vw;
+}
+
+.quad4{
+  width: 34%;
+  height: 60%;
+  margin-bottom: 5vw;
+}
+
+.quadsubcontainer{
+  width: 80%;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  top: 95vw;
+  left: 4vw;
+ 
+ }
+
+.quadsub{
+    width: 34%;
+    height: 6vw;
+    background-color: hotpink;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 10vw;
+}
+
+
+.cfbanner{
+  float: right;
+  position: relative;
+  right: 5vw;
+  bottom: 8vw;
+  height: 40vw;
+  width: 10%;
+}
+
+.footer{
+  position: relative;
+  top: 20vw;
+  background-color: hotpink;
+}
+
+
+
